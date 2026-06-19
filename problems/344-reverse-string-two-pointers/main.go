@@ -46,6 +46,23 @@ func reverseString(s []byte) {
 // time complexity: O(n) because we need to iterate through the input array s once to fill the ans array, where n is the length of the input array s. After filling the ans array, we also need to copy the contents of ans back to s, which takes O(n) time. Therefore, the overall time complexity is O(n).
 // space complexity: O(n) because we create a new array ans of the same length as the input array s to store the reversed string, resulting in O(n) additional space usage.
 
+
+// func reverseString(s []byte) {
+// 	n := len(s)
+// 	for i := 0; i < n/2; i++ {
+// 		s[i], s[n-1-i] = s[n-1-i], s[i]
+// 	}
+// }
+
+
+// steps
+// 1. We initialize two pointers, left and right, to the start and end of the input array s, respectively.
+// 2. We enter a loop that continues until the left pointer is less than the right pointer.
+
+
+// time complexity: O(n) because we need to iterate through the first half of the input array s to reverse the string, where n is the length of the input array s. In the worst case, if the string is of length n, we will have n/2 iterations to swap the characters, which simplifies to O(n).
+// space complexity: O(1) because we are not using any additional data structures that grow with the input size. We are only using a constant amount of space to store the loop variable i and the length of the input array n.
+
 func main() {
 	input := []byte{'h', 'e', 'l', 'l', 'o'}
 	reverseString(input)
