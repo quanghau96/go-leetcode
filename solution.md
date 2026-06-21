@@ -15,3 +15,4 @@ Total: **10 bài**
 | 2235 | Add Two Integers                | [Go](problems/2235-add-two-integers/main.go)               |
 | 2469 | Convert the Temperature         | [Go](problems/2469-convert-the-temperature/main.go)        |
 |   27 | Remove Element                  | [Go](problems/27-remove-element)                           |
+|  283 | Move zeroes                     | [Go](problems/283-move-zeros/)                             |
