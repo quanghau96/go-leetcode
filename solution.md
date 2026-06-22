@@ -18,3 +18,4 @@ Total: **13 bài**
 | 2235 | [Add Two Integers](problems/2235-add-two-integers/)                                     |
 | 2469 | [Convert the Temperature](problems/2469-convert-the-temperature/)                       |
 |  387 | [First Unique Character](problems/387-first-unique-character/)                          |
+|  349 | [Intersection of Two Arrays](problems/349-intersection-of-two-arrays/)                  |

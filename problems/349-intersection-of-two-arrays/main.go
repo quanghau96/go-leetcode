@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"sort"
 )
 
 // bruce force
@@ -72,26 +73,26 @@ import (
 
 // import "sort"
 
-// func intersection(nums1 []int, nums2 []int) []int {
-// 	sort.Ints(nums2)
-// 	m := make(map[int]bool)
-// 	var ans []int
+func intersection(nums1 []int, nums2 []int) []int {
+	sort.Ints(nums2)
+	m := make(map[int]bool)
+	var ans []int
 
-// 	for _, v := range nums1 {
-// 		if m[v] {
-// 			continue
-// 		}
+	for _, v := range nums1 {
+		if m[v] {
+			continue
+		}
 
-// 		idx := sort.SearchInts(nums2, v)
+		idx := sort.SearchInts(nums2, v)
 
-// 		if idx < len(nums2) && nums2[idx] == v {
-// 			ans = append(ans, v)
-// 			m[v] = true
-// 		}
-// 	}
+		if idx < len(nums2) && nums2[idx] == v {
+			ans = append(ans, v)
+			m[v] = true
+		}
+	}
 
-// 	return ans
-// }
+	return ans
+}
 
 func main() {
 	input1 := []int{1, 2, 2, 1}
