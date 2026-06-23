@@ -20,4 +20,5 @@ Total: **13 bài**
 |  387 | [First Unique Character](problems/387-first-unique-character/)                          |
 |  349 | [Intersection of Two Arrays](problems/349-intersection-of-two-arrays/)                  |
 |  350 | [Intersection of Two Arrays II](problems/350-intersection-of-two-arrays-ii/)            |
-|  169 | [Majority Element](problems/169-majority-element/)                                      |
+|  169 | [Majority Element](problems/169-majority-element/main.go)                               |
+|  229 | [Majority Element II](problems/229-majority-element-ii/)                                |

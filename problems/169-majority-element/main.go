@@ -25,8 +25,9 @@ import "fmt"
 func majorityElement(nums []int) int {
 	candidate := 0
 	sum := 0
+
 	for _, value := range nums {
-		if candidate == 0 {
+		if sum == 0 {
 			candidate = value
 		}
 
@@ -37,8 +38,18 @@ func majorityElement(nums []int) int {
 		}
 	}
 
-	return sum
+	return candidate
 }
+
+// Boyer-Moore Voting Algorithm
+
+// Time: O(n)
+// Space: O(1)
+
+// func majorityElement(nums []int) int {
+//     sort.Ints(nums)
+//     return nums[len(nums)/2]
+// }
 
 func main() {
 	res := majorityElement([]int{3, 2, 3})
