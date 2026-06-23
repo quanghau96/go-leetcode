@@ -22,3 +22,4 @@ Total: **13 bài**
 |  350 | [Intersection of Two Arrays II](problems/350-intersection-of-two-arrays-ii/)            |
 |  169 | [Majority Element](problems/169-majority-element/main.go)                               |
 |  229 | [Majority Element II](problems/229-majority-element-ii/)                                |
+|  541 | [Reverse string II](problems/541-reverse-string-II/main.go)                             |
