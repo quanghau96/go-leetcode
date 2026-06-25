@@ -24,3 +24,4 @@ Total: **13 bài**
 |  229 | [Majority Element II](problems/229-majority-element-ii/)                                |
 |  541 | [Reverse string II](problems/541-reverse-string-II/main.go)                             |
 |  125 | [Valid Palindrome](problems/125-valid-palindrome/main.go)                               |
+|  977 | [Squares of Sorted Array](problems/977-squares-of-sorted-array/main.go)                 |
