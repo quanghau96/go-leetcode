@@ -26,3 +26,4 @@ Total: **13 bài**
 |  125 | [Valid Palindrome](problems/125-valid-palindrome/main.go)                               |
 |  977 | [Squares of Sorted Array](problems/977-squares-of-sorted-array/main.go)                 |
 |  167 | [Two sum II](problems/167-two-sum-ii/main.go)                                           |
+|  724 | [Find Pivot Index](problems/724-find-pivot-index/main.go)                               |
